@@ -1,5 +1,5 @@
 def prime?(int)
-n=2
+n=2   #
 result = true
   if int <= 1  
     result = false

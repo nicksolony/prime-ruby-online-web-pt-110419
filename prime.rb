@@ -1,13 +1,11 @@
 def prime?(int)
-n=2   #
-result = true
-  if int <= 1  
-    result = false
+n=2   #assign divider
+result = true #create a result variable and make it true by default
+  if int <= 1  #check if integer less or equal to 1 (i.e. not prime)
+    result = false #save false value into result
   else
-    #numbers = (2..int-1).to_a
-    #numbers.each |n| do  
-    while int-1>n do
-      if int%n == 0
+    while int-1>n do #start to loop through all possible dividers
+      if int%n == 0 #if integer is divided and 
         result = false     
       end
     n+=1  

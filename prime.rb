@@ -3,7 +3,7 @@ def prime?(int)
 if int <= 1  
   false
 else
-  numbers = (2..int).to_a
+  numbers = (2..int-1).to_a
   numbers.each |n| do  
 
    if int%n == 0

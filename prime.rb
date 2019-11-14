@@ -1,8 +1,11 @@
 def prime?(int)
-
-if int <= 1 do false : true
-
-
-
+n = 2
+if int <= 1  
+  false
+else
+    
   
+end
+
+
 end

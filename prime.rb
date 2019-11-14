@@ -4,7 +4,7 @@ result = true #create a result variable and make it true by default
   if int <= 1  #check if integer less or equal to 1 (i.e. not prime)
     result = false #save false value into result
   else
-    while int-1>n and int%n == 0 do #start to loop through all possible dividers
+    while int-1>n and int%n == 0 do #start to loop 
       if int%n == 0 #if integer is divided and we receive whole number (i.e. integer is not prime number)
         result = false     
       end

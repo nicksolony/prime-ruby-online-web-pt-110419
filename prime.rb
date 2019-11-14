@@ -1,5 +1,5 @@
 def prime?(int)
-n = 1
+n = 2
 if int <= 1  
   false
 else

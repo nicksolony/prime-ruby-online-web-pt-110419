@@ -10,8 +10,6 @@ n=2
         return false
       else
         return true
-      
-      
       end
       n+=1
     end

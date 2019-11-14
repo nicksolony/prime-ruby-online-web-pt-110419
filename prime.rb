@@ -1,6 +1,6 @@
 def prime?(int)
 
-prime_numbers = []
+int<1? false
 
 
 

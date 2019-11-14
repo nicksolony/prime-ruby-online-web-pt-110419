@@ -1,5 +1,6 @@
 def prime?(int)
 n=2
+result = true
   if int <= 1  
     false
   else
@@ -7,12 +8,10 @@ n=2
     #numbers.each |n| do  
     while int-1>n do
       if int%n == 0
-        return false
-      else
-        return true
+        result = false     
       end
-      n+=1
+    n+=1  
     end
   end
-
+return result
 end

@@ -2,7 +2,7 @@ def prime?(int)
 n=2
 result = true
   if int <= 1  
-    false
+    result = false
   else
     #numbers = (2..int-1).to_a
     #numbers.each |n| do  

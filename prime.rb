@@ -1,8 +1,9 @@
 def prime?(int)
-n = 2
+
 if int <= 1  
   false
 else
+  numbers = (2..int)
   while int>n do
    if int%n == 0
   

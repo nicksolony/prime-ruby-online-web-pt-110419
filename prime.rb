@@ -9,9 +9,11 @@ n=2
       if int%n == 0
         return false
       else
+        return true
       
-      n+=1
+      
       end
+      n+=1
     end
   end
 

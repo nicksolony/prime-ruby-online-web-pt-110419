@@ -6,8 +6,10 @@ else
   #numbers = (2..int-1).to_a
   #numbers.each |n| do  
   while int-1>n do
-    if int%n !== 0
-      n+=1
+    if int%n == 0
+      return false
+    else
+      if int
   
     
   end

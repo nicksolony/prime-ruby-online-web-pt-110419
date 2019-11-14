@@ -1,6 +1,6 @@
 def prime?(int)
 
-int <= 1 ? false : true
+if int <= 1 do false : true
 
 
 
